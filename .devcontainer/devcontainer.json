@@ -1,0 +1,19 @@
+{
+    "name": "PySide6 Virtual Desktop",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/desktop-lite:1": {
+            "password": "admin"
+        }
+    },
+    "postCreateCommand": "bash .devcontainer/setup.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    }
+}
