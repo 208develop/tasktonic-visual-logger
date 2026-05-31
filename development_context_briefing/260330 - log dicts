@@ -1,0 +1,408 @@
+{'project': 'TaskTonic Visual Logger', 'start@': 1774867513.9488885, 'connection': '<ip>:<port>', 'logger_version': 0}
+{'id': 0, 'start@': 1774867513.9758937, 'log': [], 'sys': {'created': True, 'id': 0, 'name': 'tt_main_catalyst', 'base': -1, 'type': 'ttPyside6Ui', 'states': [], 'sparkles': ['_ttss__add_tonic_to_catalyst', '_ttss__main_catalyst_finished', '_ttss__on_completion', '_ttss__on_finished', '_ttss__on_infusion_completed', '_ttss__on_start', '_ttss__remove_tonic_from_catalyst', 'ttsc__finish', 'ttse__on_enter', 'ttse__on_exit', 'ttse__on_finished', 'ttse__on_start']}}
+{'id': 4, 'start@': 1774867514.1459186, 'log': [], 'sys': {'created': True, 'id': 4, 'name': '04.ScreenLoggerWidget', 'base': 3, 'type': 'ScreenLoggerWidget', 'states': [], 'sparkles': ['_ttss__on_completion', '_ttss__on_finished', '_ttss__on_infusion_completed', '_ttss__on_start', 'ttsc__finish', 'ttse__on_enter', 'ttse__on_exit', 'ttse__on_finished', 'ttse__on_start']}, 'catalyst': 'tt_main_catalyst'}
+{'id': 3, 'start@': 1774867514.0829153, 'log': [], 'sys': {'created': True, 'id': 3, 'name': '03.LoggerMainWindow', 'base': 0, 'type': 'LoggerMainWindow', 'states': [], 'sparkles': ['_ttss__on_completion', '_ttss__on_finished', '_ttss__on_infusion_completed', '_ttss__on_start', 'ttqt__exit_action__triggered', 'ttsc__finish', 'ttse__on_close_event', 'ttse__on_enter', 'ttse__on_exit', 'ttse__on_finished', 'ttse__on_start']}, 'catalyst': 'tt_main_catalyst'}
+{'id': 8, 'start@': 1774867514.1954386, 'log': [], 'sys': {'created': True, 'id': 8, 'name': '08.Dummy', 'base': 0, 'type': 'Dummy', 'states': [], 'sparkles': ['_ttss__add_tonic_to_catalyst', '_ttss__main_catalyst_finished', '_ttss__on_completion', '_ttss__on_finished', '_ttss__on_infusion_completed', '_ttss__on_start', '_ttss__remove_tonic_from_catalyst', 'ttsc__finish', 'ttse__on_enter', 'ttse__on_exit', 'ttse__on_finished', 'ttse__on_start']}}
+{'id': 8, 'start@': 1774867514.1964412, 'log': [], 'sparkle': '_ttss__on_start', 'source': '08.Dummy.__init__'}
+{'id': 9, 'start@': 1774867514.1964412, 'log': [], 'sys': {'created': True, 'id': 9, 'name': '09.DummyLogGenerator', 'base': 8, 'type': 'DummyLogGenerator', 'states': ['running'], 'sparkles': ['_ttss__on_completion', '_ttss__on_finished', '_ttss__on_infusion_completed', '_ttss__on_start', 'ttsc__burst', 'ttsc__finish', 'ttse__on_enter', 'ttse__on_exit', 'ttse__on_finished', 'ttse__on_start', 'ttse__on_tm_burst']}, 'catalyst': '08.Dummy'}
+{'id': 10, 'start@': 1774867514.1964412, 'log': [], 'sys': {'created': True, 'id': 10, 'name': '10.DummyStateGenerator', 'base': 8, 'type': 'DummyStateGenerator', 'states': ['be_quiet', 'noise', 'silent'], 'sparkles': ['_ttss__on_completion', '_ttss__on_finished', '_ttss__on_infusion_completed', '_ttss__on_start', 'ttsc__finish', 'ttse__on_enter', 'ttse__on_exit', 'ttse__on_finished', 'ttse__on_start', 'ttse__on_tm_make_noice', 'ttse__on_tm_next']}, 'catalyst': '08.Dummy'}
+{'id': 11, 'start@': 1774867514.1964412, 'log': [], 'sys': {'created': True, 'id': 11, 'name': '11.DummyRandomGenerator', 'base': 8, 'type': 'DummyRandomGenerator', 'states': [], 'sparkles': ['_ttss__on_completion', '_ttss__on_finished', '_ttss__on_infusion_completed', '_ttss__on_start', 'ttsc__finish', 'ttse__on_enter', 'ttse__on_exit', 'ttse__on_finished', 'ttse__on_start', 'ttse__on_tm_adjust', 'ttse__on_tm_event']}, 'catalyst': '08.Dummy', 'duration': 0.0}
+{'id': 8, 'start@': 1774867514.1964412, 'log': [], 'sparkle': 'ttse__on_start', 'source': '08.Dummy.__init__'}
+{'id': 8, 'start@': 1774867514.1964412, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '.'}
+{'id': 9, 'start@': 1774867514.1964412, 'log': [], 'sparkle': '_ttss__on_start', 'source': '09.DummyLogGenerator.__init__'}
+{'id': 9, 'start@': 1774867514.1964412, 'log': [], 'sparkle': 'ttse__on_start', 'source': '09.DummyLogGenerator.__init__'}
+{'id': 9, 'start@': 1774867514.1964412, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '09.DummyLogGenerator.ttse__on_start', 'sys': {'state': -1, 'new_state': 0}}
+{'id': 9, 'start@': 1774867514.1964412, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '09.DummyLogGenerator.ttse__on_start'}
+{'id': 8, 'start@': 1774867514.1964412, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '.'}
+{'id': 10, 'start@': 1774867514.1964412, 'log': [], 'sparkle': '_ttss__on_start', 'source': '10.DummyStateGenerator.__init__'}
+{'id': 10, 'start@': 1774867514.1964412, 'log': [], 'sparkle': 'ttse__on_start', 'source': '10.DummyStateGenerator.__init__'}
+{'id': 10, 'start@': 1774867514.1974325, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_start', 'sys': {'state': -1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867514.1974325, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_start'}
+{'id': 8, 'start@': 1774867514.1974325, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '.'}
+{'id': 11, 'start@': 1774867514.1974325, 'log': [], 'sparkle': '_ttss__on_start', 'source': '11.DummyRandomGenerator.__init__', 'duration': 0.0}
+{'id': 11, 'start@': 1774867514.1974325, 'log': [], 'sparkle': 'ttse__on_start', 'source': '11.DummyRandomGenerator.__init__', 'duration': 0.0}
+{'id': 0, 'start@': 1774867514.1985133, 'log': [], 'sparkle': '_ttss__on_start', 'source': 'tt_main_catalyst.__init__'}
+{'id': 0, 'start@': 1774867514.1985133, 'log': [], 'sparkle': 'ttse__on_start', 'source': 'tt_main_catalyst.__init__'}
+{'id': 0, 'start@': 1774867514.1985133, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': 'log_center.__init__'}
+{'id': 0, 'start@': 1774867514.1995294, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '04.ScreenLoggerWidget.__init__'}
+{'id': 4, 'start@': 1774867514.1995294, 'log': [], 'sparkle': '_ttss__on_start', 'source': '04.ScreenLoggerWidget.__init__'}
+{'id': 4, 'start@': 1774867514.1995294, 'log': [], 'sparkle': 'ttse__on_start', 'source': '04.ScreenLoggerWidget.__init__'}
+{'id': 0, 'start@': 1774867514.1995294, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '06.TotalTimelineWidget.__init__'}
+{'id': 0, 'start@': 1774867514.1995294, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '07.MicroTimelineWidget.__init__'}
+{'id': 0, 'start@': 1774867514.2005103, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '05.TimelineContainer.__init__'}
+{'id': 0, 'start@': 1774867514.2005103, 'log': [], 'sparkle': '_ttss__add_tonic_to_catalyst', 'source': '03.LoggerMainWindow.__init__'}
+{'id': 3, 'start@': 1774867514.2005103, 'log': [], 'sparkle': '_ttss__on_start', 'source': '03.LoggerMainWindow.__init__'}
+{'id': 10, 'start@': 1774867515.428149, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867515.428149, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867515.428149, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867515.428149, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 2}
+{'id': 10, 'start@': 1774867515.428149, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867515.428149, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 2, 'new_state': 0}}
+{'id': 10, 'start@': 1774867515.428149, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 3, 'start@': 1774867514.2005103, 'log': [], 'sparkle': 'ttse__on_start', 'source': '03.LoggerMainWindow.__init__'}
+{'id': 10, 'start@': 1774867515.540861, 'log': ['Hé, pssst ........'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 11, 'start@': 1774867515.6627762, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867515.8649552, 'log': ['Hé, pssst .....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867516.2079659, 'log': ['Hé, pssst ....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 1...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 2...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 3...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 4...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 5...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 6...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 7...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 8...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 9...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 10...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 11...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 12...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 13...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 14...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867516.2079659, 'log': ['Generating log 15...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 10, 'start@': 1774867516.2548978, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 0}
+{'id': 10, 'start@': 1774867516.2548978, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867516.2548978, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 0, 'new_state': 1}}
+{'id': 10, 'start@': 1774867516.2548978, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867516.5376546, 'log': ['GET LOUD!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867516.8678963, 'log': ['GET LOUD!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867517.105105, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867517.1953528, 'log': ['GET LOUD!!!!!!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867517.2124643, 'log': ['New adjust timer set to 1.8321827079460458sec/ event timer to 1.0494401510408609sec'], 'sparkle': 'ttse__on_tm_adjust', 'source': 'tm_adjust.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867517.265525, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 1}
+{'id': 10, 'start@': 1774867517.265525, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867517.265525, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867517.265525, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867517.5403106, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867517.861591, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867518.1937761, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 16...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 17...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 18...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 19...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 20...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 21...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 22...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 23...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 24...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 25...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 26...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 27...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 28...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 29...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867518.211776, 'log': ['Generating log 30...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 10, 'start@': 1774867518.2893462, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 2}
+{'id': 10, 'start@': 1774867518.2893462, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867518.2893462, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 2, 'new_state': 0}}
+{'id': 10, 'start@': 1774867518.2893462, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867518.5407689, 'log': ['Hé, pssst ......'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 11, 'start@': 1774867518.5567546, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867518.8603234, 'log': ['Hé, pssst ......'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867519.1934671, 'log': ['Hé, pssst .......'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867519.311818, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 0}
+{'id': 10, 'start@': 1774867519.311818, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867519.311818, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 0, 'new_state': 1}}
+{'id': 10, 'start@': 1774867519.311818, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867519.5263176, 'log': ['GET LOUD!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867519.6065085, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867519.8591964, 'log': ['GET LOUD!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867520.1929429, 'log': ['GET LOUD!!!!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 31...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 32...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 33...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 34...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 35...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 36...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 37...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 38...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 39...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 40...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 41...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 42...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 43...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 44...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867520.1970136, 'log': ['Generating log 45...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 11, 'start@': 1774867520.1980197, 'log': ['New adjust timer set to 2.5575056512828525sec/ event timer to 1.470094497189444sec'], 'sparkle': 'ttse__on_tm_adjust', 'source': 'tm_adjust.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867520.3358998, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 1}
+{'id': 10, 'start@': 1774867520.3358998, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867520.3358998, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867520.3358998, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867520.539747, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 11, 'start@': 1774867520.6472611, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867520.859318, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867521.1937723, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867521.3647537, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 2}
+{'id': 10, 'start@': 1774867521.3647537, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867521.3647537, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 2, 'new_state': 0}}
+{'id': 10, 'start@': 1774867521.3647537, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867521.5238216, 'log': ['Hé, pssst .....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867521.8577442, 'log': ['Hé, pssst ....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 11, 'start@': 1774867522.029756, 'log': ['New adjust timer set to 1.491379939193623sec/ event timer to 1.750978590594468sec'], 'sparkle': 'ttse__on_tm_adjust', 'source': 'tm_adjust.expired', 'duration': 0.0}
+{'id': 11, 'start@': 1774867522.1177602, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867522.1900387, 'log': ['Hé, pssst ....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 46...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 47...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 48...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 49...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 50...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 51...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 52...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 53...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 54...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 55...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 56...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 57...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 58...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 59...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867522.197039, 'log': ['Generating log 60...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 10, 'start@': 1774867522.3811078, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 0}
+{'id': 10, 'start@': 1774867522.3811078, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867522.3811078, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 0, 'new_state': 1}}
+{'id': 10, 'start@': 1774867522.3811078, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867522.5237637, 'log': ['GET LOUD!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867522.8560274, 'log': ['GET LOUD!!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867523.1916373, 'log': ['GET LOUD!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867523.4044166, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 1}
+{'id': 10, 'start@': 1774867523.4044166, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867523.4044166, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867523.4044166, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867523.52292, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867523.8692129, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 11, 'start@': 1774867523.8692129, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867524.188488, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 61...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 62...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 63...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 64...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 65...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 66...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 67...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 68...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 69...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 70...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 71...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 72...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 73...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 74...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867524.1970904, 'log': ['Generating log 75...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 10, 'start@': 1774867524.4341207, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 2}
+{'id': 10, 'start@': 1774867524.4341207, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867524.4341207, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 2, 'new_state': 0}}
+{'id': 10, 'start@': 1774867524.4341207, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867524.5221126, 'log': ['Hé, pssst .......'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 11, 'start@': 1774867524.5887163, 'log': ['New adjust timer set to 4.886569047882328sec/ event timer to 1.6062904972758396sec'], 'sparkle': 'ttse__on_tm_adjust', 'source': 'tm_adjust.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867524.860132, 'log': ['Hé, pssst .....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867525.1920202, 'log': ['Hé, pssst ...'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867525.458948, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 0}
+{'id': 10, 'start@': 1774867525.458948, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867525.458948, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 0, 'new_state': 1}}
+{'id': 10, 'start@': 1774867525.458948, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867525.520779, 'log': ['GET LOUD!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867525.618835, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867525.8533943, 'log': ['GET LOUD!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867526.0801961, 'log': ['New adjust timer set to 2.1040948006363265sec/ event timer to 1.0933568058358445sec'], 'sparkle': 'ttse__on_tm_adjust', 'source': 'tm_adjust.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867526.1865945, 'log': ['GET LOUD!!!!!!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 76...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 77...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 78...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 79...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 80...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 81...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 82...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 83...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 84...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 85...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 86...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 87...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 88...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 89...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867526.197124, 'log': ['Generating log 90...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 10, 'start@': 1774867526.488429, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 1}
+{'id': 10, 'start@': 1774867526.488429, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867526.488429, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867526.488429, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867526.51996, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867526.8521032, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867527.1857488, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 11, 'start@': 1774867527.225311, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867527.4967651, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 2}
+{'id': 10, 'start@': 1774867527.4967651, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867527.4967651, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 2, 'new_state': 0}}
+{'id': 10, 'start@': 1774867527.4967651, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867527.522772, 'log': ['Hé, pssst ......'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867527.8552556, 'log': ['Hé, pssst ....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867528.1864197, 'log': ['Hé, pssst ....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 91...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 92...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 93...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 94...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 95...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 96...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 97...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 98...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 99...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 100...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 101...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 102...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 103...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 104...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867528.2029724, 'log': ['Generating log 105...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 11, 'start@': 1774867528.3191507, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867528.5190892, 'log': ['Hé, pssst .....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867528.5190892, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 0}
+{'id': 10, 'start@': 1774867528.5190892, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867528.5190892, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 0, 'new_state': 1}}
+{'id': 10, 'start@': 1774867528.5190892, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867528.865268, 'log': ['GET LOUD!!!!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867529.1917214, 'log': ['GET LOUD!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867529.4120758, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867529.516442, 'log': ['GET LOUD!!!!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867529.5416577, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 1}
+{'id': 10, 'start@': 1774867529.5416577, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867529.5416577, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867529.5416577, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867529.8504274, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867530.182939, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 106...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 107...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 108...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 109...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 110...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 111...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 112...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 113...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 114...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 115...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 116...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 117...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 118...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 119...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867530.212436, 'log': ['Generating log 120...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 11, 'start@': 1774867530.5127108, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867530.5147111, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867530.576717, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 2}
+{'id': 10, 'start@': 1774867530.576717, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867530.576717, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 2, 'new_state': 0}}
+{'id': 10, 'start@': 1774867530.576717, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867530.8482504, 'log': ['Hé, pssst ......'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 11, 'start@': 1774867530.965676, 'log': ['New adjust timer set to 3.4993140301616816sec/ event timer to 0.45411592718493227sec'], 'sparkle': 'ttse__on_tm_adjust', 'source': 'tm_adjust.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867531.1895154, 'log': ['Hé, pssst ...'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867531.5194664, 'log': ['Hé, pssst .....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867531.5978034, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 0}
+{'id': 10, 'start@': 1774867531.5978034, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867531.5978034, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 0, 'new_state': 1}}
+{'id': 10, 'start@': 1774867531.5978034, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 11, 'start@': 1774867531.6135435, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867531.8492742, 'log': ['GET LOUD!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867532.0530922, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867532.1812513, 'log': ['GET LOUD!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 121...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 122...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 123...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 124...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 125...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 126...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 127...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 128...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 129...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 130...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 131...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 132...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 133...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 134...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867532.1972945, 'log': ['Generating log 135...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 11, 'start@': 1774867532.5115921, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867532.5135767, 'log': ['GET LOUD!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867532.6234381, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 1}
+{'id': 10, 'start@': 1774867532.6234381, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867532.6234381, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867532.6234381, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867532.8460476, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 11, 'start@': 1774867532.9617984, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 11, 'start@': 1774867533.0698931, 'log': ['New adjust timer set to 4.300512972389457sec/ event timer to 1.745717130579996sec'], 'sparkle': 'ttse__on_tm_adjust', 'source': 'tm_adjust.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867533.179679, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 11, 'start@': 1774867533.415673, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867533.5233867, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867533.6355183, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 2}
+{'id': 10, 'start@': 1774867533.6355183, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867533.6355183, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 2, 'new_state': 0}}
+{'id': 10, 'start@': 1774867533.6355183, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867533.8577979, 'log': ['Hé, pssst ........'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867534.178646, 'log': ['Hé, pssst .....'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 136...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 137...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 138...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 139...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 140...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 141...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 142...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 143...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 144...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 145...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 146...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 147...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 148...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 149...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867534.197122, 'log': ['Generating log 150...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 10, 'start@': 1774867534.5183554, 'log': ['Hé, pssst ........'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 0}
+{'id': 10, 'start@': 1774867534.6599314, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 0}
+{'id': 10, 'start@': 1774867534.6599314, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867534.6599314, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 0, 'new_state': 1}}
+{'id': 10, 'start@': 1774867534.6599314, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867534.8447597, 'log': ['GET LOUD!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 11, 'start@': 1774867535.1611211, 'log': [], 'sparkle': 'ttse__on_tm_event', 'source': 'tm_event.expired', 'duration': 0.0}
+{'id': 10, 'start@': 1774867535.179069, 'log': ['GET LOUD!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867535.5225024, 'log': ['GET LOUD!!!!!!!!!!!!!!!'], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 1}
+{'id': 10, 'start@': 1774867535.6810617, 'log': [], 'sparkle': 'ttse__on_tm_next', 'source': 'tm_next.expired', 'state': 1}
+{'id': 10, 'start@': 1774867535.6810617, 'log': [], 'sparkle': 'ttse__on_exit', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867535.6810617, 'log': [], 'sparkle': '_ttinternal_state_change_to', 'source': '10.DummyStateGenerator.ttse__on_tm_next', 'sys': {'state': 1, 'new_state': 2}}
+{'id': 10, 'start@': 1774867535.6810617, 'log': [], 'sparkle': 'ttse__on_enter', 'source': '10.DummyStateGenerator.ttse__on_tm_next'}
+{'id': 10, 'start@': 1774867535.8535948, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 10, 'start@': 1774867536.17608, 'log': [], 'sparkle': 'ttse__on_tm_make_noice', 'source': 'tm_make_noice.expired', 'state': 2}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Start burst of  15 sparkles'], 'sparkle': 'ttse__on_tm_burst', 'source': 'tm_burst.expired', 'state': 0}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 151...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttse__on_tm_burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 152...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 153...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 154...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 155...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 156...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 157...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 158...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 159...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 160...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 161...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 162...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 163...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 164...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 9, 'start@': 1774867536.1970925, 'log': ['Generating log 165...'], 'sparkle': 'ttsc__burst', 'source': '09.DummyLogGenerator.ttsc__burst'}
+{'id': 3, 'start@': 1774867536.4559085, 'log': [], 'sparkle': 'ttse__on_close_event', 'source': '.'}
+{'id': 3, 'start@': 1774867536.4569066, 'log': [], 'sparkle': 'ttsc__finish', 'source': '03.LoggerMainWindow.ttse__on_close_event'}
+{'id': 0, 'start@': 1774867536.4649065, 'log': [], 'sparkle': '_ttss__on_infusion_completed', 'source': '03.LoggerMainWindow.ttsc__finish'}
+{'id': 3, 'start@': 1774867536.4649065, 'log': [], 'sparkle': 'ttse__on_finished', 'source': '03.LoggerMainWindow.ttsc__finish'}
+{'id': 3, 'start@': 1774867536.4819067, 'log': [], 'sparkle': '_ttss__on_finished', 'source': '03.LoggerMainWindow.ttsc__finish'}
+{'id': 4, 'start@': 1774867536.4829056, 'log': [], 'sparkle': 'ttsc__finish', 'source': '03.LoggerMainWindow.finish'}
+{'id': 3, 'start@': 1774867536.4829056, 'log': [], 'sparkle': '_ttss__on_completion', 'source': '03.LoggerMainWindow._ttss__on_finished'}
+{'id': 4, 'start@': 1774867536.4829056, 'log': [], 'sparkle': 'ttse__on_finished', 'source': '04.ScreenLoggerWidget.ttsc__finish'}
+{'id': 4, 'start@': 1774867536.4829056, 'log': [], 'sparkle': '_ttss__on_finished', 'source': '04.ScreenLoggerWidget.ttsc__finish'}
+{'id': 0, 'start@': 1774867536.4829056, 'log': ['Tonic 3 has been removed from Catalyst. (left [2, 4, 6, 7, 5])'], 'sparkle': '_ttss__remove_tonic_from_catalyst', 'source': '03.LoggerMainWindow._ttss__on_completion'}
+{'id': 4, 'start@': 1774867536.4829056, 'log': [], 'sparkle': '_ttss__on_completion', 'source': '04.ScreenLoggerWidget._ttss__on_finished'}
+{'id': 0, 'start@': 1774867536.483905, 'log': ['Tonic 4 has been removed from Catalyst. (left [2, 6, 7, 5])'], 'sparkle': '_ttss__remove_tonic_from_catalyst', 'source': '04.ScreenLoggerWidget._ttss__on_completion'}
+{'id': 0, 'start@': 1774867536.483905, 'log': ['Tonic 5 has been removed from Catalyst. (left [2, 6, 7])'], 'sparkle': '_ttss__remove_tonic_from_catalyst', 'source': '05.TimelineContainer._ttss__on_completion'}
+{'id': 0, 'start@': 1774867536.483905, 'log': ['Tonic 6 has been removed from Catalyst. (left [2, 7])'], 'sparkle': '_ttss__remove_tonic_from_catalyst', 'source': '06.TotalTimelineWidget._ttss__on_completion'}
+{'id': 0, 'start@': 1774867536.483905, 'log': ['Tonic 7 has been removed from Catalyst. (left [2])'], 'sparkle': '_ttss__remove_tonic_from_catalyst', 'source': '07.MicroTimelineWidget._ttss__on_completion'}
+{'id': 0, 'start@': 1774867536.483905, 'log': [], 'sparkle': 'ttsc__finish', 'source': 'tt_main_catalyst._ttss__remove_tonic_from_catalyst'}
+{'id': 0, 'start@': 1774867536.483905, 'log': [], 'sparkle': 'ttse__on_finished', 'source': 'tt_main_catalyst.ttsc__finish'}
+{'id': 0, 'start@': 1774867536.483905, 'log': [], 'sparkle': '_ttss__on_finished', 'source': 'tt_main_catalyst.ttsc__finish'}
+{'id': 0, 'start@': 1774867536.483905, 'log': [], 'sparkle': '_ttss__on_completion', 'source': 'tt_main_catalyst._ttss__on_finished'}
+{'id': 8, 'start@': 1774867536.483905, 'log': [], 'sparkle': 'ttsc__finish', 'source': 'tt_main_catalyst.finish'}
+{'id': 8, 'start@': 1774867536.483905, 'log': ['Finish catalyst'], 'sparkle': '_ttss__main_catalyst_finished', 'source': '.'}
+{'id': 8, 'start@': 1774867536.483905, 'log': [], 'sparkle': 'ttse__on_finished', 'source': '.'}
