@@ -2,7 +2,6 @@ import time
 from TaskTonic.ttLogger import ttLogService
 from log_center import LogCenter
 
-
 class UiLogger(ttLogService):
     """
     Intercepts the real TaskTonic log stream, formats the data, 
@@ -20,6 +19,18 @@ class UiLogger(ttLogService):
         print(f"[{self.l_time_start}] Visual UiLogger engaged for {prj['name'].v}")
         print(41 * '-=')
 
+        startup = {
+            'start_new_session': True,
+            'project': prj['name'].v,
+            'start@': prj['started@'].v,
+            'connection': "<ip>:<port>",
+            'logger_version': 0,
+        }
+
+        print(startup)
+
+        self.ttsc__add_log(startup)
+
     def _tt_init_service_base(self, base, *args, **kwargs):
         self.log(close_log=True)
 
@@ -35,9 +46,8 @@ class UiLogger(ttLogService):
         print(self.ledger.sdump())
 
     def ttsc__add_log(self, log):
-        """
-        Extracts and formats the real log entry, then forwards it to LogCenter.
-        """
+        print(log)
+
         l_id = log.get('id', -1)
         if l_id < 0:
             return
@@ -46,16 +56,15 @@ class UiLogger(ttLogService):
         if log.get('sys', {}).get('created', False):
             while len(self.log_records) <= l_id:
                 self.log_records.append(None)
-            self.log_records[l_id] = log.copy()
+            self.log_records[l_id] = log.copy()  # Hier wel een copy voor in de cache!
 
-        # Retrieve cached metadata (fallback to safe defaults if missing)
         meta = self.log_records[l_id] if l_id < len(self.log_records) and self.log_records[l_id] else None
         if not meta:
             meta = {'sys': {'name': f'Unknown_{l_id}', 'states': []}}
 
         sparkle_name = log.get('sparkle', '')
         sparkle_state_idx = log.get('state', -1)
-        
+
         state_list = meta['sys'].get('states', [])
         state_name = state_list[sparkle_state_idx] if state_list and sparkle_state_idx >= 0 else 'idle'
 
@@ -66,8 +75,9 @@ class UiLogger(ttLogService):
 
         # 2. Format extra information to display in the UI body
         extra_log_lines = list(log.get('log', []))
-        
-        dont_print = ['id', 'start@', 'log', 'sparkle', 'state', 'sparkles', 'states', 'duration', 'sys', 'source', 'catalyst']
+
+        dont_print = ['id', 'start@', 'log', 'sparkle', 'state', 'sparkles', 'states', 'duration', 'sys', 'source',
+                      'catalyst']
         flags_to_print = {k: v for k, v in log.items() if k not in dont_print}
         if flags_to_print:
             extra_log_lines.append(f"Flags: {flags_to_print}")
@@ -78,23 +88,23 @@ class UiLogger(ttLogService):
 
         if l_states := log.get('states'):
             extra_log_lines.append(f"STATES: {l_states}")
-            
+
         if l_sparkles := log.get('sparkles'):
             filtered_sparkles = [s for s in l_sparkles if not s.startswith('_ttss')]
             if filtered_sparkles:
                 extra_log_lines.append(f"SPARKLES: {filtered_sparkles}")
 
-        # 3. Build the standardized dictionary for the LogCenter
-        log_dict = {
-            'id': l_id,
-            'sparkle': sparkle_name,
+        # 3. DE ENRICHED NAMESPACE
+        # We voegen onze berekende UI-data netjes toe in een eigen "mapje"
+        log['enriched'] = {
+            'display_sparkle': sparkle_name,
             'state_name': state_name,
-            'sys': {'name': meta['sys']['name'], 'created': log.get('sys', {}).get('created', False)},
-            'finishing': '_ttss__remove_tonic_from_catalyst' in sparkle_name, 
-            'log': extra_log_lines,
-            'source': log.get('source', (None, ""))
+            'ui_log_lines': extra_log_lines,
+            'finishing': '_ttss__remove_tonic_from_catalyst' in sparkle_name,
+            'tonic_name': meta['sys']['name'],
+            'system_sparkle': sparkle_name.startswith('ttss') or sparkle_name.startswith('_ttss')
         }
 
         # 4. Inject into the visual LogCenter pipeline
         if hasattr(self, 'log_center'):
-            self.log_center.ttsc__process_incoming_log(log_dict)
+            self.log_center.ttse__new_log(log)

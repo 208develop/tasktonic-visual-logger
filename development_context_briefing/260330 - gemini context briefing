@@ -1,0 +1,48 @@
+Om in een nieuwe chat naadloos verder te kunnen, is het handig om de AI een **"System Prompt / Context Briefing"** te geven, gevolgd door de twee Python-bestanden.
+
+Kopieer de onderstaande tekst en bewaar deze. Als je de nieuwe chat opent, plak je dit als je allereerste bericht, samen met de code van `ui/timeline_viewer.py` en `ui/log_viewer.py`.
+
+***
+
+### 📋 Kopieer dit voor je nieuwe chat:
+
+**Context Briefing: TaskTonic Studio - Visual Logger**
+We werken aan een real-time, high-performance visuele log-monitor in PySide6 voor het TaskTonic framework. Het doel is een "oscillcoop-achtige" weergave te hebben voor real-time en historische log-analyse.
+
+**1. Architectuur & Data State**
+* We gebruiken `TaskTonic.ttTonicStore` (via `LogCenter`) voor reactieve state management (`self.lc.session`).
+* De app communiceert via deze state keys:
+  * `ui/timeline/mode`: Kan `"tailing"` (Live) of `"history"` (Freeze) zijn.
+  * `ui/timeline/cursor_ts`: De exacte timestamp (float) waar de gele marker/cursor staat. Beide views synchroniseren hierop.
+  * `ui/timeline/freeze_ts`: De gecentreerde timestamp voor de freeze weergave.
+  * `ui/timeline/zoom_sec`: Zoomniveau in seconden (30s, 60s, etc.).
+  * `ui/id_version`: Een integer die ophoogt bij een kleurverandering in het menu, forceert directe repaints van de ID-kleuren.
+
+**2. Data Structuur (Belangrijk!)**
+* Tijdrekening gebeurt **absoluut** met echte timestamps (geen tick counts).
+* De log-dictionaries uit TaskTonic zien er grofweg zo uit:
+  `{'id': 8, 'start@': 1774475201.096, 'sparkle': 'ttsc__burst', 'source': '08.DummyLogGenerator', 'caller': '...', 'log': ['message1', 'message2']}`
+* Tijdstempels worden robuust uitgelezen via `log.get('start@')` en geforceerd naar een `float`.
+
+**3. Componenten**
+* **TimelineViewer (`ui/timeline_viewer.py`):** * Heeft een `TotalTimelineWidget` (hele sessie) en `MicroTimelineWidget` (zoom viewport).
+  * Werkt met pixel-perfect labels en een zwevend geel blokje met milliseconde-precisie.
+  * Maakt gebruik van custom `.svg` iconen (play, pause, zoom in/out) voor de UI.
+* **LogViewer (`ui/log_viewer.py`):**
+  * Een `VirtualLogView` die alleen tekent wat zichtbaar is (extreme performance).
+  * **Anti-flicker logica:** In `"history"` mode bevriest het scherm muurvast (verspringt niet), zelfs als er 10.000 logs per seconde op de achtergrond bijkomen.
+  * Onderscheidt 'Systeem Sparkles' (`__init__`, `ttss`, `state_change`) met donkere kleuren en reguliere sparkles met lichtere cyaan kleuren.
+  * Bevat geavanceerde muis-interactie: Click-to-seek (pauzeer & spring naar tijd), Wheel-scroll, en Right-Click-Scrubbing.
+
+**Huidige Codebase:**
+Hieronder staan de meest recente, volledig werkende versies van de twee bestanden.
+
+*(Plak hier de inhoud van `ui/timeline_viewer.py`)*
+
+*(Plak hier de inhoud van `ui/log_viewer.py`)*
+
+***
+
+Met deze briefing snapt de AI in je nieuwe chat direct hoe de wiskunde onder de motorkap werkt, hoe de TaskTonic state communiceert, én waarom bepaalde code (zoals de anti-flicker of de float-conversie van de tijdstempels) op die specifieke manier is geschreven.
+
+Heel veel succes met de code review morgen, je hebt een waanzinnig knap staaltje PySide6-techniek neergezet! Als we straks verdergaan, hoor ik graag of er nog nieuwe features of tweaks uit de review zijn gekomen!

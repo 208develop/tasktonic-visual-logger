@@ -4,6 +4,7 @@ from PySide6.QtGui import QAction
 
 from TaskTonic.ttTonicStore import ttPysideWindow
 from log_viewer import ScreenLoggerWidget
+from timeline_viewer import TimelineContainer
 
 
 class LoggerMainWindow(ttPysideWindow):
@@ -19,7 +20,7 @@ class LoggerMainWindow(ttPysideWindow):
         menubar = self.menuBar()
         menubar.setStyleSheet("background: #1e1e1e; color: white;")
         file_menu = menubar.addMenu("File")
-        
+
         self.exit_action = QAction("Exit", self)
         file_menu.addAction(self.exit_action)
 
@@ -30,23 +31,26 @@ class LoggerMainWindow(ttPysideWindow):
 
         splitter = QSplitter(Qt.Vertical)
         top_splitter = QSplitter(Qt.Horizontal)
-        
+
+        # 1. Jouw log list widget
         self.logger_panel = ScreenLoggerWidget(parent=self)
-        
+
+        # 2. Jouw glass label
         glass_label = QLabel("Tonic Glass Visualizer")
         glass_label.setAlignment(Qt.AlignCenter)
         glass_label.setStyleSheet("background: #050505; color: #00aaff; border: 1px solid #333; border-radius: 4px;")
-        
-        timeline_label = QLabel("Elastic Timeline Visualizer")
-        timeline_label.setAlignment(Qt.AlignCenter)
-        timeline_label.setStyleSheet("background: #111; color: #ffaa00; border-top: 2px solid #333;")
 
+        # 3. DE ECHTE TIJDLIJN WIDGET (vervangt timeline_label)
+        self.timeline_view = TimelineContainer(parent=self)
+
+        # Indeling top: Loglijst links, glass_label rechts
         top_splitter.addWidget(self.logger_panel)
         top_splitter.addWidget(glass_label)
         top_splitter.setStretchFactor(0, 4)
 
+        # Indeling main: Top gedeelte boven, Tijdlijn onder
         splitter.addWidget(top_splitter)
-        splitter.addWidget(timeline_label)
+        splitter.addWidget(self.timeline_view)
         splitter.setStretchFactor(0, 5)
 
         layout.addWidget(splitter)
